@@ -1,0 +1,27 @@
+body {
+	background-color: #F6F6F6;
+	color: #05080C;
+	font-size: 18px;
+	line-height: 1.5;
+	border-top: solid 5px #222222;
+	border-bottom: solid 5px #222222;
+	font-family: Georgia;
+	padding:0 80px;
+
+}
+
+img {
+	float: right;
+	margin-left: 15px;
+}
+
+th {
+	color: white;
+	background-color: #222222;
+	padding: 10px;
+}
+
+td {
+	background-color: #eeeeee;
+	padding: 10px;
+}

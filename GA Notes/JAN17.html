@@ -1,0 +1,211 @@
+Git - version control system 
+	blob of HTML/CSS --> set checkpoints (core version control)
+	REPOSITORY: a folder
+		commit --> saved in one big piece
+		
+GitHub - website storing gits (BitBucket, GitHub, etc.)
+
+Websites: collection of files--> set of instructions to build the page
+-HTML --> Content and structure
+-CSS --> Style and Visual Design
+-JavaScript --> Interaction and Behaviour 
+
+--> PLAIN TEXT FILES
+	- different file extensions
+HTML: .html
+CSS: .css
+
+HTML vs. HTML5
+--> HTML created for sharing and grading academic papers
+--> HTML5 a few new elements, 90% the same
+All depends on the user's computer
+DocType tells you if a page is HTML5 is ready: <!DOCTYPE html> 
+
+HTML ANATOMY *see Sublime file
+head: info about the page
+Title: one tag you NEED
+tags: SUPER IMPORTANT
+style, character set, meta tag ("hint" for search engines)
+Comment: <!--  --> 
+Body: all of your content
+
+HTML SYNTAX
+<tag name> contents </tag name> 
+<tag name> attribute name="value"</tag name>
+
+CONTENT TAGS:
+Heading elements:
+1.<h1> ... </h1>
+2.<h2> ... </h2>  
+3.<h3> ... </h3>
+4.<h4> ... </h4>
+5.<h5> ... </h5>
+6.<h6> ... </h6>
+
+<p> this is a PARAGRAPH </p>
+<code> this is some computer code </code>
+Unordered list: <ul></ul>
+		<li> first item </li>
+		<li> second item </li>
+Ordered list: <ol></ol>
+
+Anchor tags:
+Links: <a href="link"> 
+
+Image tags: <img src="" alt="">
+
+Homework --> TUESDAY to get started, DUE NEXT FRIDAY
+
+CSS
+Cascading Style sheets
+
+CSS SYNTAX:
+p {color: black;}
+p{
+	color: clack;
+	font-weight: bold;
+}
+
+COLOR PROPERTY:
+-> colors can be specified by word, by RGB, by HEX-count
+	color: black;
+	OR
+	color: rgb(0,0,0)
+	OR
+	color: #00FFFF;
+
+FONTS:
+font weight (values 100/900), style (normal or italics), size
+	font-family: times, Times New Roman, sans;
+	<h1 span {
+		text-decoration: underline;
+		text-align: center
+		font-size: 16px;
+	}>
+
+
+	h1 {
+		color: #005555;
+		font-family: Times, Times New Romans
+		text-align: center;
+}
+
+
+
+APPLYING CSS INLINE:
+<article style="background-color: white;">  --> not too practical; individual edits to EVERY SINGLE THING
+
+	OR
+
+	link to an external file
+	Like the title, it goes in the HEAD
+--> <link rel="stylesheet" href="NAME OF FILE"> 
+
+<img src="keanu/css/keanu.jpg" alt="Keanu Reeves">
+IMAGES: 
+	inside webroot, relative path
+	OR: absolute path
+	<img src="/images/logo.png">
+
+	OR: full url
+
+
+	IMAGE FILE FORMATS
+	.png
+	.gif
+	.jpeg
+
+
+COLOR: RGBa 
+		works identically to RGB, but takes fourth value called alpha
+		value between 0 and 1 which determines the opacity of the color
+
+
+
+BOX MODEL AND MORE CSS:
+
+DIV --> div tag: way to group things together
+example: only want to color one paragraph: div p in CSS file
+
+<p> Some Text </p>
+
+	<div class="Something Special">
+	<p> More text </p>
+	</div>
+
+CLASS & ID:
+targeting specific elements on a page to manipulate them
+attributes: class="NAME"  or id="NAME"
+	IDs are UNIQUE; may only be used ONE TIME in the page in TOTAL
+	CLASSES are NOT unique --> use classes for your styling
+
+	Selecting classes in CSS:
+	<p class'="CLASS NAME HERE"> BLAH BLAH BLAH </p>
+	<div class="colorBox" id="gopher"> </div>  --> IDS CANNOT BE REPEATED
+
+	CLASS definet by .
+	.somethingSpecial {}
+
+	ID defined by #
+	#gopher
+
+
+NESTING SELECTORS
+p{}  vs. .myClass p{}
+
+--> p{} targets ALL paragraphs in your page
+--> .myClass p{} is a NESTED selector; targets only the paragraph in the specific class
+
+Select multiple elements --> using a comma
+	<div class="Something Special">
+	<p> More text </p>
+	<ul>
+		<li> item </li>
+		<li> another item </li>
+	</ul>
+	</div>
+
+
+CSS: .somethingSpecial p, .Somthing Special li {
+				color: orange;
+						}
+
+Select element only inside another element
+.myClass p{} --> only select paragraph inside this class
+
+Select only immediate child of a particular element
+.myClass > p{  }
+
+<div class="Something Special">
+	<p> More text </p>
+	<div>
+		<p> I'm nested </p>
+	</div>
+
+	<p> Even More Text </p>
+	<ul>
+		<li> item </li>
+		<li> another item </li>
+	</ul>
+	</div>
+
+	.SomethingSpecial > p{ } would tag immediate child --> (More Text and Even More Text)
+
+Select exact match for both tag and class combination: p.myclass{ } --> find me a paragraph with this class
+
+Normalize or Reset:
+browsers have their own default stylesheet built-in --> NOT identical!!
+ --> 'Master' css file to bypass these browser defaults
+
+ BOX MODEL
+ - every element in web design is in a box
+ governs size --> every tag is a box of some kind
+
+ width
+ padding --> content from border
+ border --> always at least one pixel
+ margin --> space outside the border
+
+ TAGS and BOXES:
+ 
+
