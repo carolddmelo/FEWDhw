@@ -206,6 +206,57 @@ browsers have their own default stylesheet built-in --> NOT identical!!
  border --> always at least one pixel
  margin --> space outside the border
 
- TAGS and BOXES:
  
 
+ DIV: represents a whole BLOCK of your page
+ 	used to group elements together for styling purposes
+
+ What's the in-line version of a DIV? SPAN
+
+ ANOTHER BOX MODEL: BORDER BOX
+ - includes the border and the padding in the width
+ CSS Property: {box-sizing; border-box;}
+ 				{box-sizing: content-box;}
+
+ DEV TOOLS:
+
+ RESET AND NORMALIZE:
+ RESET: removes browser's default styles
+ NORMALIZE: make all browsers the same while maintaining some default styles --> no need to redeclare some styles
+
+ PICK ONE AND STICK WITH IT
+
+ GOES FIRST in the CSS list
+
+SEMANTIC HTML:
+The following behave like divs
+- header
+- footer
+- nav
+- section
+- aside
+- article --> cohesive content unit
+- main --> only use ONCE in the page: major focus
+
+
+LAYOUT METHODS:
+- Tables: EMAIL LAYOUT ONLY
+- Floats: 
+	Document flow
+	Take it out of document flow and send it to the right or the left
+
+<main class="FloatWrapper">
+	<div class="floatColumn">
+		<p> TEXT HERE</p>
+	</div>
+
+	<div class="floatColumn">
+		<p> MORE TEXT HERE </p>
+	</div>
+
+
+
+
+
+- Flexbox: 
+- CSS Grids: too new 
