@@ -1,0 +1,46 @@
+
+
+
+
+ .headerStripe, .footerStripe {
+ 	width: 100%;
+ 	padding: 10px;
+
+ }
+.headerStripe:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	
+ }
+ .twoFerColumn {
+ 	width: 50%;
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	overflow:hidden;
+	float:left;
+ }
+ 
+
+.threeColStripe  {
+ 	width: 100%
+ 	padding: 10px;
+
+ }
+
+
+ .threeColStripe:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	
+ }
+
+ .threeColColumn{
+ 	max-width: 50%;
+ 	width: 33%;
+ 	float: left;
+ 	padding: 10px;
+ 	box-sizing: border-box;
+
+ }

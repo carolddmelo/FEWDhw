@@ -8,6 +8,8 @@
     overflow: hidden;
 }
 
+
+
 .selectorDrillHeaderInner {
     max-width:960px;
     padding: 10px 15px 5px 15px;
@@ -34,6 +36,8 @@
     margin: 0 auto;
 }
 
+
+
 .placeholder {
     background-color: #97d486;
     width: 200px;
@@ -42,6 +46,16 @@
 }
 
 /* Basic Layout */
+.selectorDrillNavigation {
+    margin: 0;
+    float: left;
+}
+
+.selectorDrillNavigation .placeholder {
+    padding: 10px;
+    float: left;
+}
+
 
 .logoAndNavigation {
     width: 100%;
@@ -50,10 +64,28 @@
     overflow: hidden;
 }
 
+.logoAndNavigation > .placeholder {
+    background: #2c97de;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
 .mainSiteContent {
     width: 660px;
     float: left;
     overflow: hidden;
+}
+
+.mainSiteContent .articleList .placeholder {
+    background: #42a2e1;
+    width: 100%;
+}
+
+.mainSiteContent > .placeholder{
+    background-color: #CC6666;
+    width: 100%;
 }
 
 .secondaryContent {
@@ -61,6 +93,8 @@
     float: right;
     overflow: hidden;
 }
+
+
 
 /* Drill */
 /*

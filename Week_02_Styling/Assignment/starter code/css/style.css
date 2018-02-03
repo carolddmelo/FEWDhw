@@ -14,3 +14,141 @@
   line-height: 0;
   height: 0;
 }
+
+
+body {
+	background-color: white;
+	font-size: 24px;
+	color: #f0efef;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.ThisIsABox {
+	width: 960px;
+	margin: 100px;
+	padding: 20px;
+
+}
+
+.Intro {
+	height: 700px;
+	background: url(../images/header_bg.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.Logo {
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.tagline {
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.GetItButton {
+	font-size: 28px;  /* design file says 14px, but 'inspect' on solution page says 28px */
+	font-weight: bolder;
+	color: #033048; 
+	border-radius: 5px;
+	background-color: #f9e42e;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 400px; /* this was a last-ditch attempt. Whatever I do, I can't center this freaking button*/
+}
+
+
+.Benefits h1{
+	font-size: 40px; /* design file says 20px, inspect says 40px*/
+	font-weight: bold;
+	color: #033048;
+}
+
+.Benefits p, .Benefits ul {
+	color: grey;
+	background-color: white;
+	overflow: hidden;
+}
+
+.Amanda /*TOTALLY CHEATED and looked at solution here. Still couldn't figure out what was wrong; kept getting a white background for my text */ {
+  background: url(../images/testimonial_bg.jpg) top center #071324;
+  background-size: cover;
+  overflow: hidden;
+  color: #fff;
+}
+
+
+.Amanda blockquote {
+	text-align: center;
+	width: 580px;
+	font-weight: 300;
+	font-style: italic;
+	display: block;
+	font-size: 36px;
+	margin-left: 230px;;
+}
+
+.Amanda blockquote .author {
+	font-weight: 600;
+	display: block;
+	font-size: 36px;
+	font-style: none;
+}
+
+.SignUpButton {
+	border-radius: 5px;
+	font-size: 28px;
+	font-weight: bolder;
+	color: white;
+	text-decoration: none;
+	background-color:  #033048;
+	padding: 10px;
+}
+
+.AnotherBox {
+	background: #f9e42e;
+  	padding: 30px;
+  	text-align: center
+}
+
+
+.PageFooter {
+	background: #121212;
+	overflow: hidden;
+	padding: 50px;
+	text-align: center;
+	color: white;
+}
+
+.PageFooter .Logo {
+	color: #f9e42e;
+}
+
+.PageFooter ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 26px 75px;
+	background-color: #121212;
+	overflow: hidden;
+}
+
+.PageFooter ul {
+	background: #121212;
+	overflow: hidden;
+}
+
+footer .Copyright {
+	background-color: #121212;
+	overflow: hidden;
+	color: white;
+
+}
+
+.Twitter, .Facebook {
+	text-align: center;
+}
+
