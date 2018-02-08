@@ -30,3 +30,5 @@ function clearLights() {
   document.getElementById('goLight').style.backgroundColor = "black";
 
 }
+
+// the transition comes from the CSS file! (look at file line #40)
