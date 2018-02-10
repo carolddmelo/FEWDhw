@@ -1,0 +1,200 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+	background: #f0efef;
+  	color: #606161;
+  	font-size: 24px;
+  	font-weight: 300;
+  	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  	line-height: 1.5;
+  	max-width: 100%;
+  	text-align: center;
+  	vertical-align: baseline;
+}
+
+/* Was playing around with sizes, padding, etc FOREVER without really 
+getting it to look like it was supposed to. Had to take a look at solution; 
+COULD NOT figure out all the widths, etc. */
+
+header > .LookAtThisBox {
+  display:flex;
+  background: #033048;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  overflow: hidden;
+}
+
+header .LookAtThisLogo {
+  color: #fff;
+  display:inline-block;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+header nav {
+  margin-top: 15px;
+  text-decoration: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+  text-align: center;
+}
+header nav ul li a {
+  color: #f9e42e;
+  text-decoration: none;
+}
+#MainContent {
+  margin-top: 80px;
+}
+
+#MainContent > .LookAtThisBox {
+  display:flex;
+}
+
+.LookAtTHISPost {
+  border-bottom: 1px solid #043049;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.PostTitle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+.PostTitle a {
+  color: #043049;
+  text-decoration: none;
+}
+
+.LookAtTHISPost img {
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+.LookAtTHISPost  p {
+  font-size: 24px;
+  line-height: 1.333;
+  color: #606161;
+}
+.LookAtTHISPost  p:first-of-type:first-letter {  /* COULD NOT FOR THE LIFE OF ME FIGURE THIS ONE OUT */
+  float: left;
+  font-size: 80px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+
+#LookAtThesePosts {
+  flex-basis: 700px;
+  min-width:320px;
+  margin-right: 20px;
+}
+
+#SideBar {
+  flex-basis: 240px;
+}
+
+#SideBar h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #043049;
+}
+
+#SideBar ul {
+  margin-bottom: 40px;
+}
+
+#SideBar ul li a {
+  color: #043049;
+  font-size: 24px;
+}
+
+#SideBar p {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+#SideBar p a {
+  color: #043049;
+  font-weight: 600;
+}
+
+.ReadMore {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.ReadMore a {
+  color: #043049;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.BottomButtons {
+  background: #f9e42e;
+  color: #033048;
+}
+.SignUpButton {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#BottomButtons {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .LookAtThisLogo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
