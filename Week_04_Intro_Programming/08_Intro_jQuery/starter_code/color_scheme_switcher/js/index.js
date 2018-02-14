@@ -1,12 +1,18 @@
-document.getElementById('grayButton').onclick = switchGray;
-document.getElementById('whiteButton').onclick = switchWhite;
 
-function switchGray() {
-  document.body.style.backgroundColor = 'gray';
- document.body.style.color = 'white';
+jQuery("#grayButton") .on('click',switchGray);
+jQuery("#whiteButton") .on('click',switchWhite);
+
+function switchGray() { 
+
+	jQuery("body") .css("background", "gray");	 /*targeting the "body" class; can be done to IDs */
+  
+ 	 jQuery("body") .css("color", "white");
+  
 }
 
 function switchWhite() {
-  document.body.style.backgroundColor = 'white';
-  document.body.style.color = 'black';
+
+  jQuery("body") .css("background", "white");
+jQuery("body") .css("color", "black");
+
 }
