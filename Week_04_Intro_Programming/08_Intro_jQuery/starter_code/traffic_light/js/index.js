@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Implement the red light using jQuery. Don't forget to add the script tags.
 
 //Red Light
@@ -32,3 +33,6 @@ function illuminateGreen(){
 jQuery("#stopButton").click(illuminateRed);
 jQuery("#slowButton").click(illuminateYellow);
 jQuery("#goButton").click(illuminateGreen);
+=======
+//Implement the red light using jQuery. Don't forget to add the script tags.
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177

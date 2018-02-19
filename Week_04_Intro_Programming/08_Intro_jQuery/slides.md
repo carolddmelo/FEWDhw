@@ -104,10 +104,17 @@ $() - the almighty selector!
 * Use the same selectors you write in CSS!
 
 ```
+<<<<<<< HEAD
 $('div') // select all <div>'s
 $('h2') // select all <h2>'s
 $('p a') // select all <a>'s inside of all <p>'s
 $('p, a') // select all <p>'s and <a>'s
+=======
+$('div') // select all div's
+$('h2') // select all h2's
+$('p a') // select all a's inside of all p's
+$('p, a') // select all p's and a's
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177
 ```
 
 ---
@@ -147,7 +154,11 @@ $('#someId').html()
 Inserts and overwrites the HTML inside the selected element:
 
 ```
+<<<<<<< HEAD
 $('#someId').html('<h1>a heading</h1>')
+=======
+$('#someId').html('&lt;h1&gt;a heading&lt;/h1&gt;')
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177
 ```
 
 ---
@@ -292,11 +303,19 @@ Best practice is to write jQuery using the $(document).ready() function:
 Adding jQuery to your website
 
 ```
+<<<<<<< HEAD
 <script src="js/jquery-1.8.3.min.js">&lt;/script>
 ```
 
 ```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">&lt;/script>
+=======
+&lt;script src="js/jquery-1.8.3.min.js">&lt;/script&gt;
+```
+
+```
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177
 ```
 
 ---
