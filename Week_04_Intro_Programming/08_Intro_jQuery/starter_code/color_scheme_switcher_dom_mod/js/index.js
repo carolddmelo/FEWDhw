@@ -2,7 +2,11 @@
 /*
 
 Add a Status Indicator
+<<<<<<< HEAD
+Using the jquery functions append(), empty(), or prepend() to add a paragraph into csSwitchStatus that indicates what colors have been chosen.
+=======
 Using the jquery functions append, empty, or prepend to add a paragraph into csSwitchStatus that indicates what colors have been chosen.
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177
 
 
 Bonus: Add a new color scheme
@@ -16,7 +20,10 @@ Use append to:
 
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177
 $("#grayButton").on("click",grayScheme);
 $("#whiteButton").on("click",whiteScheme);
 

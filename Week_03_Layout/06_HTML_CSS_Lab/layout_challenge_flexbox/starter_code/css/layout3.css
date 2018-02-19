@@ -1,0 +1,40 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMainFeatures {
+display: flex;
+height: 200px;
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+	flex: 2;
+	width: 50%;
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+margin-right: 10px;
+}
+
+.exerciseAdditionalFeatures {
+display: flex;
+height: 200px;
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+	flex:3;
+	margin-top: 10px;
+	
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+	margin-right: 10px;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:nth-child(2){
+	margin-right: 10px;
+}

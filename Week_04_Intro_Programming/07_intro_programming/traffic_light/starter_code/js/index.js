@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+document.getElementById('stopButton').onclick = illuminateRed;
+
+function illuminateRed() {
+  clearLights();
+  document.getElementById('stopLight').style.backgroundColor = "red";
+}
+
+function clearLights() {
+  document.getElementById('stopLight').style.backgroundColor = "black";
+}
+=======
 
 
 
@@ -30,3 +42,4 @@ document.getElementById('slowButton').onclick = illuminateYellow;
 document.getElementById('goButton').onclick = illuminateGreen;
 
 
+>>>>>>> cb0e026fd930ac12d5964a8c25a7725c1731d177
