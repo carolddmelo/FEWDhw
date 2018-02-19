@@ -14,7 +14,6 @@ Use append to:
 
  */
 
-jQuery("body").prepend("<p> I am a happy gohper</p>")
 
 
 $("#grayButton").on("click",grayScheme);
