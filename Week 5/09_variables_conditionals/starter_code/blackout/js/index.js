@@ -1,7 +1,7 @@
 var lights = "on";
 
 function switchLights(e) {
-	e.preventDefault();
+	e.preventDefault()
  // if lights are on
  if(lights == "on"){
  		// turn off
