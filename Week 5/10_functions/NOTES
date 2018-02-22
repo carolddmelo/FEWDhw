@@ -1,0 +1,41 @@
+New Jquery Method
+
+jQuery ().attr(); --> lets us change an HTML attribute, basically lets us edit an HTML with JavaScript
+
+Trim:
+
+var myLongString = "   SomeText   "
+.myLongString.trim(); --> SomeText (NO SPACES)
+//Good for when users put in spaces where there shouldn't be any
+
+FUNCTIONS --> set of steps
+function makeSandwich(){
+	Open Bread;
+	if PeanutButterJelly
+		spread peanut butter;
+		speread jelly;
+	else if BLT
+		apply bacon, letuce, tomato;
+	else go hungry
+}
+
+makeSandwich ();
+
+FUNCTION ARGUMENTS: function functionName(arg1, arg2){
+	// BODY OF FUNCTION
+}
+
+		function addMe(unum, duo){ return unum+duo;}
+		addme(2,12);
+
+		function addMe(unum, duo) {
+    unum = parseFloat (unum);
+    duo = parseFloat (duo);
+    
+    return unum+duo}
+
+
+    event.preventDefault();
+     Math.random() 
+     jQuery().text(); 
+     jQuery().html();
