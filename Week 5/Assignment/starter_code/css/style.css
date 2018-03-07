@@ -139,6 +139,36 @@ header {
   background-image: url(../images/sydney.jpg)
 }
 
+<<<<<<< HEAD
+=======
+/* I'm going to be a masochist and add a few cities... AIIGHT */ 
+
+.bsb {
+  background-image: url(../images/bsb.jpg)
+}
+
+.edinburgh {
+  background-image: url(../images/edinburgh.jpg)
+}
+
+.barcelona {
+  background-image: url(../images/barcelona.jpg)
+}
+
+.taipei {
+  background-image: url(../images/taipei.jpg)
+}
+
+.dc {
+  background-image: url(../images/dc.jpg)
+}
+
+.paris{
+  background-image: url(../images/paris.jpg)
+}
+
+
+>>>>>>> 8121dc0154a1c074ddfcb232a9c2b9b3bdbe7a9d
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
