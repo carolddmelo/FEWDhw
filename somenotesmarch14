@@ -1,0 +1,5 @@
+myArr =['Hello', 54.3, true]; --> ARRAY EXAMPLE
+
+myArr [o]  is 'Hello'
+myArr [1]  is 54.3
+myArr[2]   is true  --> THIS IS ARRAY INDEXING
