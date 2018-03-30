@@ -1,0 +1,136 @@
+body {
+	background-color: #aaa;
+	margin: 10px;
+}
+
+a {
+	color:white;
+}
+
+.TheAlice{
+	padding-left: 10px;
+}
+
+
+.TheHeader {
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
+}
+
+.NavigationPanel {
+	width:1000px;
+	padding-left: 250px;
+	padding-bottom: 10px;
+}
+
+
+li {
+	font-size: 22px;
+	list-style: none;
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.TheTagline{
+	text-decoration: italic;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.JustOneImage{
+	max-width: 50%;
+}
+.TheMainThing{
+	
+	font-size: 15px;
+	font-weight: 600;
+	border-style: solid;
+	border-color: black;
+	max-width: 50%;
+	height: 300px;
+	padding: 10px;
+	
+}
+
+.ArchiveButton{
+	background-color: black;
+	font-weight: 600;
+	font-size: 15px;
+	padding-right:10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: white
+	border-weight: 5px;
+	border-style: solid;
+	border-spacing: 5px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+}
+
+.HeiressButton{
+	background-color: black;
+	font-weight: 600;
+	font-size: 15px;
+	padding-right:10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: white
+	border-weight: 5px;
+	border-style: solid;
+	border-spacing: 5px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+
+}
+
+.StoryButton{
+	background-color: black;
+	font-weight: 600;
+	font-size: 15px;
+	padding-right:10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: white
+	border-weight: 5px;
+	border-style: solid;
+	border-spacing: 5px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+}
+
+.SattireButton {
+	background-color: black;
+	font-weight: 600;
+	font-size: 15px;
+	padding-right:10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: white
+	border-weight: 5px;
+	border-style: solid;
+	border-spacing: 5px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+}
+
+.TheColumns {
+	max-width: 50%;
+	float: left;
+	font-size: 15px;
+	height: 300px;
+	padding: 10px;
+}
+
+.SocialMedia{
+	float: right;
+}
