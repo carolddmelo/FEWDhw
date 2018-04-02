@@ -1,3 +1,4 @@
+// THIS IS JUST FOR THE BOOKS LINK --> CAROUSEL W/ IMAGES ONLY//
 var slideIndex = 1;
 showSlides(slideIndex);
 
